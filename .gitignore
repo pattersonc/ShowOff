@@ -1,0 +1,10 @@
+_ReSharper*/
+ShowOff.Core/bin/
+ShowOff.Core/obj/
+ShowOff.Tests/bin/
+ShowOff.Tests/obj/
+ShowOff.IntegrationTests/bin/
+ShowOff.IntegrationTests/obj/
+ShowOff/bin/
+ShowOff/obj/
+TestResults/

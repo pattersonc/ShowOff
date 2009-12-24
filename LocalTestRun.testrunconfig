@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRunConfiguration name="Local Test Run" id="fcc4ae37-3984-49d4-be1d-685e5440c0eb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Description>This is a default test run configuration for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="ShowOff.IntegrationTests\App.config" />
+  </Deployment>
+  <TestTypeSpecific />
+</TestRunConfiguration>
