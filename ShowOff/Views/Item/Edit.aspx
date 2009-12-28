@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <h2>Edit Item</h2>
-
+    <%= Html.ValidationSummary(true, "Could not save.") %>
     <%Html.EnableClientValidation(); %>
     <% using (Html.BeginForm()) {%>
 

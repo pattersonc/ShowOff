@@ -113,7 +113,6 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Views\Item\Create.aspx" />
-    <Content Include="Views\Item\Details.aspx" />
     <Content Include="Views\Item\Edit.aspx" />
     <Content Include="Views\Item\Index.aspx" />
     <Content Include="Web.config" />

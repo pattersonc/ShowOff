@@ -100,7 +100,7 @@ select{
 }
 #main{
 	width:100%;
-	overflow:visible;
+	overflow: hidden;
 }
 /*-- greetings --*/
 #greetings,
@@ -336,7 +336,33 @@ select{
 	margin:32px 0 0;
 }
 
-#showOff img
+/* show off */
+#showOff li
 {
+	height: 450px;
+}
+
+#showOff table
+{
+	border: none 0;
+	width: 400px;
 	padding: 0 20px 10px 0;
 }
+
+#showOff img
+{
+	width:400px;
+	height: 300px;
+}
+
+#showOff .title
+{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#showOff .description
+{
+	font-size: 12;
+}
+

@@ -11,23 +11,33 @@
         <ul>
         <% foreach (var item in Model.OrderBy(x => x.DisplayPriority)) { %>
             <li>
-                <img alt="<%= item.Description %>" src="<%= Html.UploadImageUrl(item.CoverImage.Filename) %>" width="400px" />
-                <div><%= Html.Encode(item.Name) %></div>
-                <div><%= Html.Encode(item.Description) %></div>
+                <table>
+                    <tr>
+                        <td><img alt="<%= item.Description %>" src="<%= Html.UploadImageUrl(item.CoverImage.Filename) %>" /></td>
+                    </tr>
+                    <tr>
+                        <td class="title"><%= Html.Encode(item.Name) %></td>
+                    </tr>
+                    <tr>
+                        <td class="description"><%= Html.Encode(item.Description) %></td>
+                    </tr>
+                </table>
             </li>  
         <% } %>
         </ul>
     </div>
-    
+    <div>
     <button id="prev"><<</button>
     <button id="next">>></button>
+    </div>
     
     <script type="text/javascript">
 
         $(function() {
             $("#showOff").jCarouselLite({
                 btnNext: "#next",
-                btnPrev: "#prev"
+                btnPrev: "#prev",
+                scroll: 2
             });
         });
     

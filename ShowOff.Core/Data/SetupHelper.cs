@@ -57,8 +57,8 @@ namespace ShowOff.Core.Data
 
                 var item = new Item()
                 {
-                    Name = "ShowOff Item " + j,
-                    Description = "Show me off to the world.",
+                    Name = "Show Off Item " + j,
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium orci et libero gravida vestibulum. Phasellus in libero neque. Integer a metus at magna suscipit suscipit. Nulla facilisi.",
                     Url = "http://www.showoffgallery.com",
                     CreatedDate = DateTime.Now,
                     ModifiedDate = DateTime.Now,
