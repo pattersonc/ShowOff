@@ -31,7 +31,7 @@ namespace ShowOff.Controllers
         //
         // GET: /ShowOff/Details/5
 
-        public ActionResult Details(int id)
+        public ActionResult Detail(int id)
         {
             var item = _itemRepository.GetById(id);
 

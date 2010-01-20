@@ -13,10 +13,10 @@
             <li>
                 <table>
                     <tr>
-                        <td><img alt="<%= item.Description %>" src="<%= Html.UploadImageUrl(item.CoverImage.Filename) %>" /></td>
+                        <td><a href="<%= Url.Action("Detail", new {id=item.ID}) %>"><img alt="<%= item.Description %>" src="<%= Html.UploadImageUrl(item.CoverImage.Filename) %>" /></a></td>
                     </tr>
                     <tr>
-                        <td class="title"><%= Html.Encode(item.Name) %></td>
+                        <td class="title"><%= Html.ActionLink(item.Name, "Detail", new {id=item.ID}) %></td>
                     </tr>
                     <tr>
                         <td class="description"><%= Html.Encode(item.Description) %></td>

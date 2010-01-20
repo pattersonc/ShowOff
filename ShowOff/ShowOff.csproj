@@ -249,6 +249,7 @@
     <Content Include="Scripts\jcarousellite_1.0.1.js" />
     <Content Include="Views\Setup\Index.aspx" />
     <Content Include="Views\Shared\ShowOff.Master" />
+    <Content Include="Views\ShowOff\Detail.aspx" />
     <Content Include="Views\ShowOff\Index.aspx" />
   </ItemGroup>
   <ItemGroup>

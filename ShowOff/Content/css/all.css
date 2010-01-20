@@ -366,3 +366,30 @@ select{
 	font-size: 12;
 }
 
+#showOffDetail .header
+{
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 5px 0px 10px 5px;
+	float: left;
+}
+
+#showOffDetail .slideShow 
+{
+	float:left;
+}
+
+#showOffDetail img 
+{
+	width: 600px;
+	height: 400px;
+}
+
+#showOffDetail .copy
+{
+	float:left;
+	padding: 10px 10px 0px 10px;
+	font-size: 12px;
+}
+
+.clear { clear:both; }

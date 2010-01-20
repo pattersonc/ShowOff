@@ -13,64 +13,68 @@
   </NAntValidationSettings>
   <RecentFiles>
     <RecentFiles>
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Models/f:AccountModels.cs" caret="1822" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:HomeController.cs" caret="0" scrollPosition="0|0" />
-      <File id="EECEB95A-9E01-4C79-B48E-7D22049E7093/f:AuthoringTests.txt" caret="0" scrollPosition="0|0" />
-      <File id="EECEB95A-9E01-4C79-B48E-7D22049E7093/f:App.config" caret="0" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SessionFactoryFactory.cs" caret="762" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:ItemImage.cs" caret="282" scrollPosition="0|0" />
-      <File id="EECEB95A-9E01-4C79-B48E-7D22049E7093/d:Data/f:DataTests.cs" caret="1425" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:IRepository.cs" caret="0" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:NHibernateRepositoryBase.cs" caret="0" scrollPosition="0|27" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/f:Global.asax.cs" caret="755" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemRepository.cs" caret="409" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/f:App.config" caret="82" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/f:Web.config" caret="2564" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Details.aspx" caret="0" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="748" scrollPosition="0|9" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="0" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1107" scrollPosition="0|21" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="422" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:ItemType.cs" caret="0" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemTypeRepository.cs" caret="488" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="375" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="539" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="620" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="1853" scrollPosition="0|27" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:Maps.cs" caret="867" scrollPosition="0|5" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="1637" scrollPosition="0|60" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemTypeRepository.cs" caret="488" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Util/f:RandomFileNameHelper.cs" caret="333" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Util/f:ImageUtil.cs" caret="198" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/f:Global.asax.cs" caret="758" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="605" scrollPosition="0|4" />
+      <File id="EECEB95A-9E01-4C79-B48E-7D22049E7093/d:Data/f:DataTests.cs" caret="2912" scrollPosition="0|43" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:NHibernateRepositoryBase.cs" caret="582" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:Maps.cs" caret="0" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Properties/f:AssemblyInfo.cs" caret="697" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SessionFactoryFactory.cs" caret="895" scrollPosition="13|23" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Register.aspx" caret="0" scrollPosition="0|7" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:AccountController.cs" caret="4867" scrollPosition="0|129" />
+      <File id="d:Miscellaneous Files/f:PersistenceModel.cs" caret="7871" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemImageRepository.cs" caret="2937" scrollPosition="0|42" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="487" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:SetupController.cs" caret="353" scrollPosition="0|0" />
+      <File id="d:Miscellaneous Files/f:index.html" caret="7344" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Helpers/f:AppHelper.cs" caret="88" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/f:Web.config" caret="0" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="25" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="1398" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:jcarousellite_1.0.1.js" caret="9989" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5836" scrollPosition="0|323" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1444" scrollPosition="0|11" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Models/f:AccountModels.cs" caret="0" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="2817" scrollPosition="0|97" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="868" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SetupHelper.cs" caret="2477" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="410" scrollPosition="0|0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="1092" scrollPosition="0|15" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/f:Global.asax.cs" caret="755" scrollPosition="0|3" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="877" scrollPosition="0|6" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/f:Web.config" caret="2564" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="93" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="490" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="361" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="521" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="2439" scrollPosition="0|70" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="2822" scrollPosition="0|72" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1107" scrollPosition="0|21" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="422" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="502" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="375" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="644" scrollPosition="0|6" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="881" scrollPosition="0|12" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="539" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1240" scrollPosition="0|22" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="349" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="2228" scrollPosition="0|45" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemTypeRepository.cs" caret="102" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemTypeRepository.cs" caret="102" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemTypeRepository.cs" caret="488" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="1873" scrollPosition="0|27" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="694" scrollPosition="0|9" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="1362" scrollPosition="0|33" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="1849" scrollPosition="0|27" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="1760" scrollPosition="0|53" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="1979" scrollPosition="0|53" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:Maps.cs" caret="1208" scrollPosition="0|6" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="1860" scrollPosition="0|84" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="1993" scrollPosition="0|84" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="2464" scrollPosition="0|105" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="2601" scrollPosition="0|105" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="3666" scrollPosition="0|168" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="4172" scrollPosition="0|198" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5010" scrollPosition="0|237" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5239" scrollPosition="0|249" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="48" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="546" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Helpers/f:AppHelper.cs" caret="522" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="2858" scrollPosition="0|24" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="1021" scrollPosition="0|3" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="1398" scrollPosition="0|3" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="365" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="2539" scrollPosition="0|51" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6100" scrollPosition="0|312" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="1639" scrollPosition="0|101" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6095" scrollPosition="0|320" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1025" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="569" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5976" scrollPosition="0|324" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1235" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5927" scrollPosition="0|323" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5841" scrollPosition="0|323" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1444" scrollPosition="0|11" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="250" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="455" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="410" scrollPosition="0|0" />
+      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SetupHelper.cs" caret="2477" scrollPosition="111|42" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -84,44 +88,44 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="virtual" priority="13" />
-      <Item value="int" priority="5" />
+      <Item value="int" priority="11" />
       <Item value="prop" priority="0" />
-      <Item value="public" priority="20" />
-      <Item value="string" priority="5" />
-      <Item value="SessionFactoryFactory" priority="2" />
+      <Item value="public" priority="32" />
+      <Item value="string" priority="16" />
+      <Item value="SessionFactoryFactory" priority="5" />
       <Item value="ShowOff" priority="1" />
       <Item value="class" priority="2" />
       <Item value="ItemMap" priority="1" />
-      <Item value="ItemImage" priority="4" />
+      <Item value="ItemImage" priority="7" />
       <Item value="Map" priority="1" />
       <Item value="ClassMap" priority="0" />
-      <Item value="ctor" priority="3" />
+      <Item value="ctor" priority="4" />
       <Item value="Id" priority="0" />
       <Item value="ItemType" priority="4" />
       <Item value="ItemTypeMap" priority="0" />
       <Item value="references" priority="0" />
-      <Item value="Configuration" priority="0" />
+      <Item value="Configuration" priority="1" />
       <Item value="Attribute" priority="0" />
-      <Item value="void" priority="3" />
+      <Item value="void" priority="6" />
       <Item value="TestMethod" priority="2" />
-      <Item value="var" priority="14" />
-      <Item value="new" priority="11" />
-      <Item value="GetSessionFactory" priority="0" />
+      <Item value="var" priority="26" />
+      <Item value="new" priority="24" />
+      <Item value="GetSessionFactory" priority="1" />
       <Item value="TestInitialize" priority="0" />
       <Item value="session" priority="4" />
       <Item value="Name" priority="1" />
       <Item value="Description" priority="0" />
-      <Item value="Url" priority="0" />
+      <Item value="Url" priority="3" />
       <Item value="CreatedDate" priority="0" />
       <Item value="ModifiedDate" priority="0" />
-      <Item value="DateTime" priority="2" />
+      <Item value="DateTime" priority="3" />
       <Item value="Type" priority="1" />
       <Item value="DisplayName" priority="1" />
       <Item value="itemType" priority="0" />
-      <Item value="Filename" priority="0" />
-      <Item value="ThumbFilename" priority="0" />
+      <Item value="Filename" priority="3" />
+      <Item value="ThumbFilename" priority="3" />
       <Item value="CoverImage" priority="0" />
-      <Item value="image" priority="1" />
+      <Item value="image" priority="5" />
       <Item value="DisplayPriority" priority="0" />
       <Item value="References" priority="0" />
       <Item value="ClassInitialize" priority="0" />
@@ -136,68 +140,130 @@
       <Item value="apparelItemType" priority="0" />
       <Item value="for" priority="2" />
       <Item value="i" priority="0" />
-      <Item value="ShowOff.Core" priority="1" />
+      <Item value="ShowOff.Core" priority="2" />
       <Item value="Repository" priority="0" />
       <Item value="NHibernateRepositoryBase" priority="0" />
       <Item value="ItemRepository" priority="2" />
-      <Item value="_itemRepository" priority="10" />
+      <Item value="_itemRepository" priority="16" />
       <Item value="itemRepository" priority="0" />
       <Item value="TryUpdateModel" priority="1" />
       <Item value="Item" priority="0" />
       <Item value="this" priority="0" />
-      <Item value="using" priority="0" />
-      <Item value="System" priority="0" />
-      <Item value="ComponentModel" priority="0" />
-      <Item value="DataAnnotations" priority="0" />
+      <Item value="using" priority="3" />
+      <Item value="System" priority="3" />
+      <Item value="ComponentModel" priority="1" />
+      <Item value="DataAnnotations" priority="1" />
       <Item value="Required" priority="2" />
-      <Item value="Html" priority="2" />
-      <Item value="item" priority="3" />
-      <Item value="RedirectToAction" priority="0" />
-      <Item value="object" priority="0" />
+      <Item value="Html" priority="15" />
+      <Item value="item" priority="10" />
+      <Item value="RedirectToAction" priority="1" />
+      <Item value="object" priority="1" />
       <Item value="RedirectToRoute" priority="0" />
-      <Item value="View" priority="0" />
+      <Item value="View" priority="1" />
       <Item value="IItemTypeRepository" priority="3" />
       <Item value="ViewData" priority="1" />
-      <Item value="private" priority="0" />
+      <Item value="private" priority="2" />
       <Item value="itemTypeRepository" priority="1" />
       <Item value="_itemTypeRepository" priority="1" />
       <Item value="ItemTypeRepository" priority="0" />
-      <Item value="x" priority="0" />
+      <Item value="x" priority="2" />
       <Item value="as" priority="1" />
       <Item value="SelectList" priority="0" />
       <Item value="collection" priority="0" />
       <Item value="Convert" priority="0" />
+      <Item value="HttpPost" priority="3" />
+      <Item value="RandomFilenameHelper" priority="1" />
+      <Item value="_storeLocation" priority="1" />
+      <Item value="Path" priority="2" />
+      <Item value="ext" priority="0" />
+      <Item value="IItemImageRepository" priority="0" />
+      <Item value="ItemImageRepository" priority="1" />
+      <Item value="_itemImageRepository" priority="5" />
+      <Item value="itemImageRepository" priority="0" />
+      <Item value="Model" priority="2" />
+      <Item value="id" priority="1" />
+      <Item value="fileName" priority="3" />
+      <Item value="if" priority="4" />
+      <Item value="itemImage" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="FormMethod" priority="0" />
+      <Item value="ActionResult" priority="2" />
+      <Item value="imageID" priority="1" />
+      <Item value="return" priority="7" />
+      <Item value="throw" priority="4" />
+      <Item value="ApplicationException" priority="1" />
+      <Item value="ImageFormat" priority="0" />
+      <Item value="Util" priority="0" />
+      <Item value="itemImageRepo" priority="0" />
+      <Item value="resource" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="fileNames" priority="1" />
+      <Item value="s" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="_session" priority="0" />
+      <Item value="criteria" priority="0" />
+      <Item value="T" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="assembly" priority="0" />
+      <Item value="helper" priority="1" />
+      <Item value="Web" priority="0" />
+      <Item value="Mvc" priority="0" />
+      <Item value="UrlHelper" priority="0" />
+      <Item value="VirtualPathUtility" priority="0" />
+      <Item value="relativeUrl" priority="0" />
+      <Item value="FileInfo" priority="2" />
+      <Item value="fileInfo" priority="6" />
+      <Item value="FileNotFoundException" priority="2" />
+      <Item value="thumbFileName" priority="4" />
+      <Item value="thumbFileInfo" priority="1" />
+      <Item value="ImageUtil" priority="1" />
+      <Item value="const" priority="1" />
+      <Item value="FullWidthPixels" priority="0" />
+      <Item value="ThumbWidthPixels" priority="0" />
+      <Item value="filePath" priority="0" />
+      <Item value="thumbFilePath" priority="0" />
+      <Item value="SetupHelper" priority="1" />
+      <Item value="ActionName" priority="0" />
+      <Item value="Random" priority="0" />
+      <Item value="HtmlTitle" priority="0" />
+      <Item value="ContentResult" priority="0" />
+      <Item value="StringLength" priority="2" />
+      <Item value="ValidationSummary" priority="0" />
+      <Item value="true" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentMappingsContainer">
       <Item value="AddFromAssembly" priority="0" />
+      <Item value="ExportTo" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Reflection.Assembly">
       <Item value="GetExecutingAssembly" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Model.Item">
-      <Item value="Images" priority="0" />
-      <Item value="CoverImage" priority="0" />
-      <Item value="Description" priority="0" />
+      <Item value="Images" priority="3" />
+      <Item value="CoverImage" priority="5" />
+      <Item value="Description" priority="3" />
       <Item value="Url" priority="0" />
-      <Item value="DisplayPriority" priority="0" />
+      <Item value="DisplayPriority" priority="1" />
       <Item value="Type" priority="4" />
-      <Item value="ID" priority="2" />
+      <Item value="ID" priority="3" />
       <Item value="Name" priority="0" />
       <Item value="CreatedDate" priority="0" />
-      <Item value="ModifiedDate" priority="0" />
+      <Item value="ModifiedDate" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Model.ItemImage">
-      <Item value="ID" priority="0" />
-      <Item value="Filename" priority="0" />
+      <Item value="ID" priority="4" />
+      <Item value="Filename" priority="1" />
       <Item value="ThumbFilename" priority="0" />
       <Item value="ItemID" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
       <Item value="Not" priority="1" />
       <Item value="Nullable" priority="1" />
-      <Item value="Generated" priority="4" />
+      <Item value="Generated" priority="5" />
       <Item value="Insert" priority="0" />
-      <Item value="Default" priority="1" />
+      <Item value="Default" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Model.ItemType">
       <Item value="Name" priority="0" />
@@ -222,20 +288,21 @@
     <ItemStatistics item="Qualified:@ShowOff.Core.Data.SessionFactoryFactory">
       <Item value="CreateSessionFactory" priority="0" />
       <Item value="GetSessionFactory" priority="1" />
-      <Item value="DropSchema" priority="0" />
-      <Item value="CreateSchema" priority="0" />
+      <Item value="DropSchema" priority="1" />
+      <Item value="CreateSchema" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
       <Item value="OpenSession" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.ISession">
-      <Item value="CreateCriteria" priority="0" />
+      <Item value="CreateCriteria" priority="3" />
       <Item value="Save" priority="0" />
       <Item value="SaveOrUpdate" priority="1" />
       <Item value="Flush" priority="0" />
+      <Item value="CreateQuery" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.DateTime">
-      <Item value="Now" priority="2" />
+      <Item value="Now" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityPart">
       <Item value="Not" priority="0" />
@@ -246,32 +313,105 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Add" priority="0" />
+      <Item value="Select" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Repository.IItemRepository">
-      <Item value="GetById" priority="3" />
-      <Item value="Save" priority="3" />
-      <Item value="Update" priority="1" />
+      <Item value="GetById" priority="5" />
+      <Item value="Save" priority="6" />
+      <Item value="Update" priority="3" />
       <Item value="Add" priority="0" />
       <Item value="GetAll" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
-      <Item value="EnableClientValidation" priority="1" />
+      <Item value="EnableClientValidation" priority="2" />
       <Item value="Encode" priority="0" />
       <Item value="DropDownListFor" priority="0" />
+      <Item value="BeginForm" priority="1" />
+      <Item value="ScriptInclude" priority="2" />
+      <Item value="Stylesheet" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="ValidationSummary" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyGeneratedBuilder">
-      <Item value="Insert" priority="2" />
-      <Item value="Always" priority="0" />
+      <Item value="Insert" priority="3" />
+      <Item value="Always" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Repository.IItemTypeRepository">
       <Item value="GetAll" priority="0" />
       <Item value="GetById" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
-      <Item value="OrderBy" priority="0" />
+      <Item value="OrderBy" priority="1" />
+      <Item value="Add" priority="0" />
+      <Item value="Count" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Convert">
       <Item value="ToInt32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetExtension" priority="1" />
+      <Item value="GetFileName" priority="1" />
+      <Item value="GetFileNameWithoutExtension" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Name" priority="0" />
+      <Item value="FullName" priority="4" />
+      <Item value="Exists" priority="3" />
+      <Item value="Extension" priority="0" />
+      <Item value="CopyTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ShowOff.Core.Repository.IItemImageRepository">
+      <Item value="Save" priority="1" />
+      <Item value="SaveImageFile" priority="1" />
+      <Item value="GetById" priority="0" />
+      <Item value="Delete" priority="0" />
+      <Item value="CreateThumb" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFileBase">
+      <Item value="ContentLength" priority="0" />
+      <Item value="FileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
+      <Item value="Post" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ShowOff.Core.Repository.ItemImageRepository">
+      <Item value="SaveImageFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList" priority="0" />
+      <Item value="OrderBy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="List" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.Db.MsSqlConfiguration">
+      <Item value="UseReflectionOptimizer" priority="0" />
+      <Item value="DoNot" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper">
+      <Item value="AntiForgeryToken" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.VirtualPathUtility">
+      <Item value="ToAbsolute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ShowOff.Core.Util.RandomFilenameHelper">
+      <Item value="GetRandomFileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ShowOff.Core.Util.ImageUtil">
+      <Item value="ResizeImage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ShowOff.Core.Data.SetupHelper">
+      <Item value="ResetDatabase" priority="0" />
+      <Item value="AddDefaultData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
