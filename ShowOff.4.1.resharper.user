@@ -13,8 +13,6 @@
   </NAntValidationSettings>
   <RecentFiles>
     <RecentFiles>
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="620" scrollPosition="0|0" />
-      <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemTypeRepository.cs" caret="488" scrollPosition="0|0" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Util/f:RandomFileNameHelper.cs" caret="333" scrollPosition="0|0" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Util/f:ImageUtil.cs" caret="198" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/f:Global.asax.cs" caret="758" scrollPosition="0|0" />
@@ -26,33 +24,27 @@
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SessionFactoryFactory.cs" caret="895" scrollPosition="13|23" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Register.aspx" caret="0" scrollPosition="0|7" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:AccountController.cs" caret="4867" scrollPosition="0|129" />
-      <File id="d:Miscellaneous Files/f:PersistenceModel.cs" caret="7871" scrollPosition="0|0" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Repository/f:ItemImageRepository.cs" caret="2937" scrollPosition="0|42" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="487" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:SetupController.cs" caret="353" scrollPosition="0|0" />
-      <File id="d:Miscellaneous Files/f:index.html" caret="7344" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Helpers/f:AppHelper.cs" caret="88" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/f:Web.config" caret="0" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="25" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="1398" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:jcarousellite_1.0.1.js" caret="9989" scrollPosition="0|0" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5836" scrollPosition="0|323" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1444" scrollPosition="0|11" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1536" scrollPosition="0|11" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Models/f:AccountModels.cs" caret="0" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ItemController.cs" caret="2817" scrollPosition="0|97" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="868" scrollPosition="0|0" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SetupHelper.cs" caret="2477" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="410" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="158" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="776" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Site.css" caret="4065" scrollPosition="0|217" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6425" scrollPosition="0|353" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Detail.aspx" caret="965" scrollPosition="0|0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="1860" scrollPosition="0|84" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="1993" scrollPosition="0|84" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="2464" scrollPosition="0|105" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="2601" scrollPosition="0|105" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="3666" scrollPosition="0|168" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="4172" scrollPosition="0|198" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5010" scrollPosition="0|237" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5239" scrollPosition="0|249" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="48" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:ShowOff.Master" caret="546" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:Helpers/f:AppHelper.cs" caret="522" scrollPosition="0|0" />
@@ -63,18 +55,26 @@
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="2539" scrollPosition="0|51" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6100" scrollPosition="0|312" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="1639" scrollPosition="0|101" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6095" scrollPosition="0|320" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1025" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="569" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5976" scrollPosition="0|324" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1235" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1327" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5927" scrollPosition="0|323" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="5841" scrollPosition="0|323" />
-      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1444" scrollPosition="0|11" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1536" scrollPosition="0|11" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="250" scrollPosition="0|0" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Model/f:Item.cs" caret="455" scrollPosition="0|0" />
       <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Edit.aspx" caret="410" scrollPosition="0|0" />
       <File id="A1C59F74-87E6-4C8B-AC65-EC41D2DE13E8/d:Data/f:SetupHelper.cs" caret="2477" scrollPosition="111|42" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:Controllers/f:ShowOffController.cs" caret="776" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="672" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Detail.aspx" caret="837" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Detail.aspx" caret="1375" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6124" scrollPosition="0|332" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Detail.aspx" caret="1199" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6269" scrollPosition="0|336" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Detail.aspx" caret="548" scrollPosition="0|0" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:all.css" caret="6425" scrollPosition="0|353" />
+      <File id="16953589-C324-4750-B9F4-4D699078373D/d:__RESHARPER__DummyWebPages_/f:Detail.aspx" caret="965" scrollPosition="0|0" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -109,13 +109,13 @@
       <Item value="void" priority="6" />
       <Item value="TestMethod" priority="2" />
       <Item value="var" priority="26" />
-      <Item value="new" priority="24" />
+      <Item value="new" priority="26" />
       <Item value="GetSessionFactory" priority="1" />
       <Item value="TestInitialize" priority="0" />
       <Item value="session" priority="4" />
       <Item value="Name" priority="1" />
       <Item value="Description" priority="0" />
-      <Item value="Url" priority="3" />
+      <Item value="Url" priority="4" />
       <Item value="CreatedDate" priority="0" />
       <Item value="ModifiedDate" priority="0" />
       <Item value="DateTime" priority="3" />
@@ -154,10 +154,10 @@
       <Item value="ComponentModel" priority="1" />
       <Item value="DataAnnotations" priority="1" />
       <Item value="Required" priority="2" />
-      <Item value="Html" priority="15" />
-      <Item value="item" priority="10" />
+      <Item value="Html" priority="19" />
+      <Item value="item" priority="14" />
       <Item value="RedirectToAction" priority="1" />
-      <Item value="object" priority="1" />
+      <Item value="object" priority="2" />
       <Item value="RedirectToRoute" priority="0" />
       <Item value="View" priority="1" />
       <Item value="IItemTypeRepository" priority="3" />
@@ -180,7 +180,7 @@
       <Item value="ItemImageRepository" priority="1" />
       <Item value="_itemImageRepository" priority="5" />
       <Item value="itemImageRepository" priority="0" />
-      <Item value="Model" priority="2" />
+      <Item value="Model" priority="6" />
       <Item value="id" priority="1" />
       <Item value="fileName" priority="3" />
       <Item value="if" priority="4" />
@@ -232,6 +232,7 @@
       <Item value="StringLength" priority="2" />
       <Item value="ValidationSummary" priority="0" />
       <Item value="true" priority="0" />
+      <Item value="ITempDataProvider" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentMappingsContainer">
       <Item value="AddFromAssembly" priority="0" />
@@ -241,19 +242,19 @@
       <Item value="GetExecutingAssembly" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Model.Item">
-      <Item value="Images" priority="3" />
+      <Item value="Images" priority="5" />
       <Item value="CoverImage" priority="5" />
-      <Item value="Description" priority="3" />
+      <Item value="Description" priority="4" />
       <Item value="Url" priority="0" />
       <Item value="DisplayPriority" priority="1" />
       <Item value="Type" priority="4" />
-      <Item value="ID" priority="3" />
-      <Item value="Name" priority="0" />
+      <Item value="ID" priority="5" />
+      <Item value="Name" priority="3" />
       <Item value="CreatedDate" priority="0" />
       <Item value="ModifiedDate" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ShowOff.Core.Model.ItemImage">
-      <Item value="ID" priority="4" />
+      <Item value="ID" priority="5" />
       <Item value="Filename" priority="1" />
       <Item value="ThumbFilename" priority="0" />
       <Item value="ItemID" priority="0" />
@@ -324,13 +325,15 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
       <Item value="EnableClientValidation" priority="2" />
-      <Item value="Encode" priority="0" />
+      <Item value="Encode" priority="2" />
       <Item value="DropDownListFor" priority="0" />
       <Item value="BeginForm" priority="1" />
       <Item value="ScriptInclude" priority="2" />
       <Item value="Stylesheet" priority="0" />
       <Item value="ImageUrl" priority="0" />
       <Item value="ValidationSummary" priority="0" />
+      <Item value="ActionLink" priority="1" />
+      <Item value="Action" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyGeneratedBuilder">
       <Item value="Insert" priority="3" />
@@ -412,6 +415,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Random">
       <Item value="Next" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.UrlHelper">
+      <Item value="Action" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
