@@ -26,7 +26,7 @@ namespace ShowOff.Core.Data
             Map(x => x.DisplayPriority);
             HasMany(x => x.Images).KeyColumn("ItemID").Cascade.All();
             References(x => x.CoverImage).Column("CoverImageID").Cascade.All().Nullable();
-            References(x => x.Type).Column("ItemTypeID").Cascade.All().Not.Nullable();
+            References(x => x.Type).Column("ItemTypeID").Not.Nullable();
         }
     }
 

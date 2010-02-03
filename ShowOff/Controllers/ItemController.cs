@@ -9,6 +9,7 @@ using ShowOff.Core.Repository;
 
 namespace ShowOff.Controllers
 {
+    [Authorize]
     public class ItemController : Controller
     {
         private IItemRepository _itemRepository;
@@ -26,7 +27,7 @@ namespace ShowOff.Controllers
 
         //
         // GET: /Item/
-
+        
         public ActionResult Index()
         {
             var items = _itemRepository.GetAll();
@@ -120,6 +121,26 @@ namespace ShowOff.Controllers
             {
                 return View(item);
             }
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            var item = _itemRepository.GetById(id);
+
+            return View(item);
+        }
+
+        [HttpPost]
+        [ActionName("Delete")]
+        public ActionResult DeleteConfirm(int id)
+        {
+            var item = _itemRepository.GetById(id);
+
+            _itemRepository.Delete(item);
+            _itemRepository.Save();
+
+            return RedirectToAction("Index");
         }
 
         [HttpPost]

@@ -377,6 +377,7 @@ select{
 #showOffDetail .slideShow 
 {
 	float:left;
+	width: 600px;
 }
 
 #showOffDetail img 
@@ -392,4 +393,11 @@ select{
 	font-size: 12px;
 }
 
+#slideshow-container
+{
+	float: left;
+}
+
 .clear { clear:both; }
+
+.noClear { clear: none; }

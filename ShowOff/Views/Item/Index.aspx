@@ -18,9 +18,6 @@
                 Name
             </th>
             <th>
-                Description
-            </th>
-            <th>
                 Url
             </th>
             <th>
@@ -39,16 +36,13 @@
         <tr>
             <td>
                 <%= Html.ActionLink("Edit", "Edit", new {  id=item.ID }) %> |
-                <%= Html.ActionLink("Details", "Details", new {  id=item.ID })%>
+                <%= Html.ActionLink("Delete", "Delete", new {  id=item.ID })%>
             </td>
             <td>
                 <%= Html.Encode(item.ID) %>
             </td>
             <td>
                 <%= Html.Encode(item.Name) %>
-            </td>
-            <td>
-                <%= Html.Encode(item.Description) %>
             </td>
             <td>
                 <%= Html.Encode(item.Url) %>

@@ -15,20 +15,25 @@
         
         <div class="clear"></div>
         
-        <div class="slideShow">
+        <div id="slideshow-container">
+            <div class="slideShow">
 
-            <ul>
-            <% foreach (var item in Model.Images.OrderBy(x => x.ID)) { %>
-                <li>
-                    <img alt="<%= Model.Name %>" src="<%= Html.UploadImageUrl(item.Filename) %>" />
-                </li>  
-            <% } %>
-            </ul>
+                <ul>
+                <% foreach (var item in Model.Images.OrderBy(x => x.ID)) { %>
+                    <li>
+                        <img alt="<%= Model.Name %>" src="<%= Html.UploadImageUrl(item.Filename) %>" />
+                    </li>  
+                <% } %>
+                </ul>
+            </div>
+
+            <div class="copy">
+                <%= Html.Encode(Model.Description) %>
+            </div>
+        
         </div>
         
-        <div class="copy">
-            <%= Html.Encode(Model.Description) %>
-        </div>
+
         
         <div class="clear"></div>
         

@@ -23,8 +23,9 @@ namespace ShowOff.Controllers
         [ActionName("Index")]
         public string Setup()
         {
-
+            
             SetupHelper.ResetDatabase();
+            SetupHelper.ExecuteMigrations(Server);
             SetupHelper.AddDefaultData();
 
             return "Setup complete";

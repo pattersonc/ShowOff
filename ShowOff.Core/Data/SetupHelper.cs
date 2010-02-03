@@ -1,7 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 using ShowOff.Core.Model;
 using ShowOff.Core.Repository;
 
@@ -71,6 +76,67 @@ namespace ShowOff.Core.Data
                 session.SaveOrUpdate(item);
                 session.Flush();
 
+            }
+        }
+
+        public static void ExecuteSqlScript(string sql)
+        {
+
+            using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ShowOffConnectionString"].ConnectionString))
+            {
+                connection.Open();
+
+                Regex regex = new Regex("^GO", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+                string[] lines = regex.Split(sql);
+
+                using (SqlCommand cmd = connection.CreateCommand())
+                {
+                    cmd.Connection = connection;
+                    
+                    foreach (string line in lines)
+                    {
+                        if (line.Length > 0)
+                        {
+                            cmd.CommandText = line;
+                            cmd.CommandType = CommandType.Text;
+
+                            try
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                            catch (SqlException ex)
+                            {
+                                throw;
+                            }
+                        }
+                    }
+                }
+
+                connection.Close();
+            }
+        }
+
+        public static void ExecuteMigrations(System.Web.HttpServerUtilityBase server)
+        {
+            DirectoryInfo di = new DirectoryInfo(server.MapPath("~\\Migrations"));
+            
+            FileInfo[] fi = di.GetFiles("*.sql", SearchOption.TopDirectoryOnly);
+
+            var alphaFiles = fi.OrderBy(p => p.Name);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (FileInfo fii in alphaFiles)
+            {
+                TextReader tr = new StreamReader(fii.FullName);
+
+                sb.Append(tr.ReadToEnd());
+
+                tr.Close();
+
+                ExecuteSqlScript(sb.ToString());
+
+                sb = new StringBuilder();
             }
         }
     }

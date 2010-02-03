@@ -246,11 +246,19 @@
     <Content Include="Content\Uploads\Images\test3.jpg" />
     <Content Include="Content\Uploads\Images\test2.jpg" />
     <Content Include="Content\Uploads\Images\test5_thumb.jpg" />
+    <Content Include="readme.txt" />
     <Content Include="Scripts\jcarousellite_1.0.1.js" />
+    <Content Include="Views\Item\Delete.aspx" />
     <Content Include="Views\Setup\Index.aspx" />
     <Content Include="Views\Shared\ShowOff.Master" />
     <Content Include="Views\ShowOff\Detail.aspx" />
     <Content Include="Views\ShowOff\Index.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1_membership_schema.sql.donotrun">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Migrations\2_default_users.sql" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
