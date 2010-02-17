@@ -134,12 +134,14 @@ namespace ShowOff.Controllers
             return View(model);
         }
 
+        [Authorize]
         public ActionResult Register()
         {
             return View();
         }
 
         [HttpPost]
+        [Authorize]
         public ActionResult Register(RegisterModel model)
         {
             if (ModelState.IsValid)
@@ -149,7 +151,7 @@ namespace ShowOff.Controllers
 
                 if (createStatus == MembershipCreateStatus.Success)
                 {
-                    FormsService.SignIn(model.UserName, false /* createPersistentCookie */);
+                    //FormsService.SignIn(model.UserName, false /* createPersistentCookie */);
                     return RedirectToAction("Index", "Home");
                 }
                 else

@@ -374,28 +374,35 @@ select{
 	float: left;
 }
 
-#showOffDetail .slideShow 
+#slideshow-wrapper
 {
+	width:600px;
+	height:400px;
 	float:left;
-	width: 600px;
 }
 
-#showOffDetail img 
+#slideshow-items
+{
+	width:600px;
+	height:400px;
+}
+
+#slideshow-items img 
 {
 	width: 600px;
 	height: 400px;
 }
 
-#showOffDetail .copy
-{
-	float:left;
-	padding: 10px 10px 0px 10px;
-	font-size: 12px;
-}
-
-#slideshow-container
+#item-description
 {
 	float: left;
+	width: 300px;
+}
+
+#item-description p
+{
+	font-size: 12px;
+	padding: 10px;
 }
 
 .clear { clear:both; }

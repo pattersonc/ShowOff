@@ -15,34 +15,27 @@
         
         <div class="clear"></div>
         
-        <div id="slideshow-container">
-            <div class="slideShow">
-
-                <ul>
-                <% foreach (var item in Model.Images.OrderBy(x => x.ID)) { %>
-                    <li>
-                        <img alt="<%= Model.Name %>" src="<%= Html.UploadImageUrl(item.Filename) %>" />
-                    </li>  
-                <% } %>
-                </ul>
+        <div id="item-wrapper">
+            <div id="slideshow-wrapper">
+                <div id="slideshow-items">
+                    <ul>
+                    <% foreach (var item in Model.Images.OrderBy(x => x.ID)) { %>
+                        <li>
+                            <img alt="<%= Model.Name %>" src="<%= Html.UploadImageUrl(item.Filename) %>" />
+                        </li>  
+                    <% } %>
+                    </ul>
+                </div>
             </div>
-
-            <div class="copy">
-                <%= Html.Encode(Model.Description) %>
+            <div id="item-description">
+                <p><%= Html.Encode(Model.Description) %></p>
             </div>
-        
-        </div>
-        
-
-        
-        <div class="clear"></div>
-        
+        </div>       
     </div>
-
     <script type="text/javascript">
 
         $(function() {
-            $(".slideShow").jCarouselLite({
+            $("#slideshow-items").jCarouselLite({
                 scroll: 1,
                 visible: 1,
                 auto: 3000

@@ -12,7 +12,7 @@
           <PublishCopyOption>ProjectFiles</PublishCopyOption>
           <PublishTargetLocation>c:\temp\showoff\publish\</PublishTargetLocation>
           <PublishDeleteAllFiles>True</PublishDeleteAllFiles>
-          <PublishCopyAppData>True</PublishCopyAppData>
+          <PublishCopyAppData>False</PublishCopyAppData>
           <ExternalProgram>
           </ExternalProgram>
           <StartExternalURL>
