@@ -9,3 +9,4 @@ ShowOff/bin/
 ShowOff/obj/
 TestResults/
 *resharper.user
+*.ignoreme
