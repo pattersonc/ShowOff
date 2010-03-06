@@ -158,7 +158,7 @@ namespace ShowOff.Tests.Controllers
             var viewResult = (ViewResult)result;
             var model = (Item)viewResult.ViewData.Model;
 
-            Assert.AreNotEqual(model, mockItemRepo.Object.GetById(id));
+            Assert.AreEqual(model, mockItemRepo.Object.GetById(id));
         }
 
     }

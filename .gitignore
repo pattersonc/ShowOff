@@ -10,3 +10,4 @@ ShowOff/obj/
 TestResults/
 *resharper.user
 *.ignoreme
+*.user
