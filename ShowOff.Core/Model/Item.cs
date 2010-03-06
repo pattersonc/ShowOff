@@ -23,5 +23,10 @@ namespace ShowOff.Core.Model
         public virtual IList<ItemImage> Images { get; set; }
         public virtual ItemImage CoverImage { get; set; }
         public virtual ItemType Type { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
     }
 }

@@ -18,7 +18,7 @@ namespace ShowOff.Controllers
 
         public ItemController() : this(null, null, null) { }
 
-        public ItemController(IItemRepository itemRepository, IItemTypeRepository itemTypeRepository, ItemImageRepository itemImageRepository)
+        public ItemController(IItemRepository itemRepository, IItemTypeRepository itemTypeRepository, IItemImageRepository itemImageRepository)
         {
             _itemRepository = itemRepository ?? new ItemRepository();
             _itemTypeRepository = itemTypeRepository ?? new ItemTypeRepository();
