@@ -11,11 +11,9 @@ namespace ShowOff.Controllers
     {
         private IItemRepository _itemRepository;
 
-        public ShowOffController() : this(null) { }
-
         public ShowOffController(IItemRepository itemRepository)
         {
-            _itemRepository = itemRepository ?? new ItemRepository();
+            _itemRepository = itemRepository;
         }
 
         //

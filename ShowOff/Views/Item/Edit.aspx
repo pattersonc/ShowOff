@@ -48,7 +48,7 @@
             </div>
             
             <p>
-                <input type="submit" value="Save" />
+                <input type="submit" value="Save" onclick="return confirm('test');" />
             </p>
         </fieldset>
 

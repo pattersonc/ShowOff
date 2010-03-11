@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using ShowOff.Controllers;
 
 namespace ShowOff
 {
@@ -29,6 +30,10 @@ namespace ShowOff
             AreaRegistration.RegisterAllAreas();
 
             RegisterRoutes(RouteTable.Routes);
+
+            Bootstrapper.ConfigureStructureMap();
+
+            ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory());
         }
     }
 }

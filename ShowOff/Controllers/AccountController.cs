@@ -15,20 +15,12 @@ namespace ShowOff.Controllers
     [HandleError]
     public class AccountController : Controller
     {
-
-        // This constructor is used by the MVC framework to instantiate the controller using
-        // the default forms authentication and membership providers.
-        public AccountController()
-            : this(null, null)
-        {
-        }
-
         // This constructor is not used by the MVC framework but is instead provided for ease
         // of unit testing this type. See the comments in AccountModels.cs for more information.
         public AccountController(IFormsAuthenticationService formsService, IMembershipService membershipService)
         {
-            FormsService = formsService ?? new FormsAuthenticationService();
-            MembershipService = membershipService ?? new AccountMembershipService();
+            FormsService = formsService;
+            MembershipService = membershipService;
         }
 
         public IFormsAuthenticationService FormsService
