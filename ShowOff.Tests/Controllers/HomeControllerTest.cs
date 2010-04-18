@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using ShowOff;
 using ShowOff.Controllers;
 
 namespace ShowOff.Tests.Controllers
 {
-    [TestClass]
+    [TestFixture]
     public class HomeControllerTest
     {
-        [TestMethod]
+        [Test]
         public void Index()
         {
             // Arrange
@@ -26,7 +26,7 @@ namespace ShowOff.Tests.Controllers
             Assert.AreEqual("Welcome to ASP.NET MVC!", viewData["Message"]);
         }
 
-        [TestMethod]
+        [Test]
         public void About()
         {
             // Arrange

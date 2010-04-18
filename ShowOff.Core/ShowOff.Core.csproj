@@ -126,6 +126,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SolutionVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Service\" />
   </ItemGroup>
   <ItemGroup>

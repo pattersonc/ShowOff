@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Data.Linq;
+using NUnit.Framework;
 using ShowOff.Core.Data;
 using ShowOff.Core.Model;
 using ShowOff.Core.Repository;
 
 namespace ShowOff.IntegrationTests.Data
 {
-    [TestClass]
+    [TestFixture]
     public class DataTests
     {
         public DataTests()
@@ -19,14 +19,14 @@ namespace ShowOff.IntegrationTests.Data
             
         }
         
-        [ClassInitialize]
-        public static void SetupDatabase(TestContext testContext)
+        [SetUp]
+        public static void SetupDatabase()
         {
             SessionFactoryFactory.DropSchema();
             SessionFactoryFactory.CreateSchema();  
         }
 
-        [TestMethod]
+        [Test]
         public void CreateData()
         {
             var session = SessionFactoryFactory.GetSessionFactory().OpenSession();
@@ -77,12 +77,12 @@ namespace ShowOff.IntegrationTests.Data
             }
         }
 
-        [TestMethod]
+        [Test]
         public void UpdateData()
         {
         }
 
-        [TestMethod]
+        [Test]
         public void DeleteData()
         {
         }

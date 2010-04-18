@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using ShowOff;
 using ShowOff.Controllers;
 using ShowOff.Models;
@@ -12,11 +12,11 @@ using ShowOff.Models;
 namespace ShowOff.Tests.Controllers
 {
 
-    [TestClass]
+    [TestFixture]
     public class AccountControllerTest
     {
 
-        [TestMethod]
+        [Test]
         public void ChangePassword_Get_ReturnsView()
         {
             // Arrange
@@ -26,10 +26,10 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.ChangePassword();
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
         }
 
-        [TestMethod]
+        [Test]
         public void ChangePassword_Post_ReturnsRedirectOnSuccess()
         {
             // Arrange
@@ -45,12 +45,12 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.ChangePassword(model);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(RedirectToRouteResult));
+            Assert.IsInstanceOfType(typeof(RedirectToRouteResult), result);
             RedirectToRouteResult redirectResult = (RedirectToRouteResult)result;
             Assert.AreEqual("ChangePasswordSuccess", redirectResult.RouteValues["action"]);
         }
 
-        [TestMethod]
+        [Test]
         public void ChangePassword_Post_ReturnsViewIfChangePasswordFails()
         {
             // Arrange
@@ -66,13 +66,13 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.ChangePassword(model);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             ViewResult viewResult = (ViewResult)result;
             Assert.AreEqual(model, viewResult.ViewData.Model);
             Assert.AreEqual("The current password is incorrect or the new password is invalid.", controller.ModelState[""].Errors[0].ErrorMessage);
         }
 
-        [TestMethod]
+        [Test]
         public void ChangePassword_Post_ReturnsViewIfModelStateIsInvalid()
         {
             // Arrange
@@ -89,12 +89,12 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.ChangePassword(model);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             ViewResult viewResult = (ViewResult)result;
             Assert.AreEqual(model, viewResult.ViewData.Model);
         }
 
-        [TestMethod]
+        [Test]
         public void ChangePasswordSuccess_ReturnsView()
         {
             // Arrange
@@ -104,10 +104,10 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.ChangePasswordSuccess();
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
         }
 
-        [TestMethod]
+        [Test]
         public void LogOff_LogsOutAndRedirects()
         {
             // Arrange
@@ -117,14 +117,14 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.LogOff();
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(RedirectToRouteResult));
+            Assert.IsInstanceOfType(typeof(RedirectToRouteResult), result);
             RedirectToRouteResult redirectResult = (RedirectToRouteResult)result;
             Assert.AreEqual("Home", redirectResult.RouteValues["controller"]);
             Assert.AreEqual("Index", redirectResult.RouteValues["action"]);
             Assert.IsTrue(((MockFormsAuthenticationService)controller.FormsService).SignOut_WasCalled);
         }
 
-        [TestMethod]
+        [Test]
         public void LogOn_Get_ReturnsView()
         {
             // Arrange
@@ -134,10 +134,10 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.LogOn();
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult),result);
         }
 
-        [TestMethod]
+        [Test]
         public void LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl()
         {
             // Arrange
@@ -153,14 +153,14 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.LogOn(model, null);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(RedirectToRouteResult));
+            Assert.IsInstanceOfType(typeof(RedirectToRouteResult), result);
             RedirectToRouteResult redirectResult = (RedirectToRouteResult)result;
             Assert.AreEqual("Home", redirectResult.RouteValues["controller"]);
             Assert.AreEqual("Index", redirectResult.RouteValues["action"]);
             Assert.IsTrue(((MockFormsAuthenticationService)controller.FormsService).SignIn_WasCalled);
         }
 
-        [TestMethod]
+        [Test]
         public void LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl()
         {
             // Arrange
@@ -176,13 +176,13 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.LogOn(model, "/someUrl");
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(RedirectResult));
+            Assert.IsInstanceOfType(typeof(RedirectResult), result);
             RedirectResult redirectResult = (RedirectResult)result;
             Assert.AreEqual("/someUrl", redirectResult.Url);
             Assert.IsTrue(((MockFormsAuthenticationService)controller.FormsService).SignIn_WasCalled);
         }
 
-        [TestMethod]
+        [Test]
         public void LogOn_Post_ReturnsViewIfModelStateIsInvalid()
         {
             // Arrange
@@ -199,12 +199,12 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.LogOn(model, null);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             ViewResult viewResult = (ViewResult)result;
             Assert.AreEqual(model, viewResult.ViewData.Model);
         }
 
-        [TestMethod]
+        [Test]
         public void LogOn_Post_ReturnsViewIfValidateUserFails()
         {
             // Arrange
@@ -220,13 +220,13 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.LogOn(model, null);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             ViewResult viewResult = (ViewResult)result;
             Assert.AreEqual(model, viewResult.ViewData.Model);
             Assert.AreEqual("The user name or password provided is incorrect.", controller.ModelState[""].Errors[0].ErrorMessage);
         }
 
-        [TestMethod]
+        [Test]
         public void OnActionExecuting_SetsViewData()
         {
             // Arrange
@@ -239,7 +239,7 @@ namespace ShowOff.Tests.Controllers
             Assert.AreEqual(10, controller.ViewData["PasswordLength"]);
         }
 
-        [TestMethod]
+        [Test]
         public void Register_Get_ReturnsView()
         {
             // Arrange
@@ -249,10 +249,10 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.Register();
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
         }
 
-        [TestMethod]
+        [Test]
         public void Register_Post_ReturnsRedirectOnSuccess()
         {
             // Arrange
@@ -269,13 +269,13 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.Register(model);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(RedirectToRouteResult));
+            Assert.IsInstanceOfType(typeof(RedirectToRouteResult), result);
             RedirectToRouteResult redirectResult = (RedirectToRouteResult)result;
             Assert.AreEqual("Home", redirectResult.RouteValues["controller"]);
             Assert.AreEqual("Index", redirectResult.RouteValues["action"]);
         }
 
-        [TestMethod]
+        [Test]
         public void Register_Post_ReturnsViewIfRegistrationFails()
         {
             // Arrange
@@ -292,13 +292,13 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.Register(model);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             ViewResult viewResult = (ViewResult)result;
             Assert.AreEqual(model, viewResult.ViewData.Model);
             Assert.AreEqual("Username already exists. Please enter a different user name.", controller.ModelState[""].Errors[0].ErrorMessage);
         }
 
-        [TestMethod]
+        [Test]
         public void Register_Post_ReturnsViewIfModelStateIsInvalid()
         {
             // Arrange
@@ -316,7 +316,7 @@ namespace ShowOff.Tests.Controllers
             ActionResult result = controller.Register(model);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             ViewResult viewResult = (ViewResult)result;
             Assert.AreEqual(model, viewResult.ViewData.Model);
         }

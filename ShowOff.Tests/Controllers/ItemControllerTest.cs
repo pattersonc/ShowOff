@@ -2,15 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using Moq;
+using NUnit.Framework;
 using ShowOff.Controllers;
 using ShowOff.Core.Model;
 using ShowOff.Core.Repository;
 
 namespace ShowOff.Tests.Controllers
 {
-    [TestClass]
+    [TestFixture]
     public class ItemControllerTest
     {
         private static List<Item> testData;
@@ -69,7 +70,7 @@ namespace ShowOff.Tests.Controllers
             return result;
         }
 
-        [TestMethod]
+        [Test]
         public void Index_Returns_View()
         {
             var mockItemRepo = new Mock<IItemRepository>();
@@ -80,10 +81,10 @@ namespace ShowOff.Tests.Controllers
 
             var result = itemController.Index();
 
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
         }
 
-        [TestMethod]
+        [Test]
         public void Index_Returns_Data_To_View()
         {
             var mockItemRepo = new Mock<IItemRepository>();
@@ -96,14 +97,14 @@ namespace ShowOff.Tests.Controllers
 
             var result = itemController.Index();
 
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             var viewResult = (ViewResult) result;
             var model = (IList<Item>) viewResult.ViewData.Model;
 
             Assert.AreEqual(testData.Count, model.Count);
         }
 
-        [TestMethod]
+        [Test]
         public void Details_Returns_View()
         {
             var mockItemRepo = new Mock<IItemRepository>();
@@ -116,10 +117,10 @@ namespace ShowOff.Tests.Controllers
 
             var result = itemController.Details(1);
 
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
         }
 
-        [TestMethod]
+        [Test]
         public void Details_Returns_Correct_Data_To_View_Different_ID()
         {
             int id = 1;
@@ -133,14 +134,14 @@ namespace ShowOff.Tests.Controllers
 
             var result = itemController.Details(id);
 
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             var viewResult = (ViewResult)result;
             var model = (Item)viewResult.ViewData.Model;
 
             Assert.AreNotEqual(model, mockItemRepo.Object.GetById(2));
         }
 
-        [TestMethod]
+        [Test]
         public void Details_Returns_Correct_Data_To_View_Same_ID()
         {
             int id = 1;
@@ -154,7 +155,7 @@ namespace ShowOff.Tests.Controllers
 
             var result = itemController.Details(id);
 
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            Assert.IsInstanceOfType(typeof(ViewResult), result);
             var viewResult = (ViewResult)result;
             var model = (Item)viewResult.ViewData.Model;
 
